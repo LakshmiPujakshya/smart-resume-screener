@@ -24,4 +24,14 @@ This is a simple AI-based Streamlit app that automatically screens resumes based
 ---
 
 ## 📁 Project Structure
+smart-resume-screener/
+│
+├── app.py                 # Main Streamlit app to run the UI
+├── preprocess.py          # Functions to clean and preprocess text
+├── utils.py               # Helper functions (e.g., PDF reading, similarity)
+├── requirements.txt       # Python dependencies
+│
+├── sample_resumes/        # Folder to store sample PDF resumes
+├── job_descriptions/      # Folder to store job descriptions
+└── __pycache__/           # Auto-generated Python cache files
 
